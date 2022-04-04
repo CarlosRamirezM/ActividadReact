@@ -1,0 +1,30 @@
+#brand {
+  font-family: "Sevillana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+}
+
+.obraImg {
+  width: 178px;
+  height: 143px;
+  align-self: center;
+}
+
+.obraCard {
+  height: 260px;
+  padding-bottom: 10px;
+}
+
+.titleSection {
+  height: 67px;
+  align-self: center;
+  text-align: center;
+  background: #c4c4c4;
+  vertical-align: middle;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+}
