@@ -7,11 +7,11 @@ function Museum(props) {
   
   return (
     <div className="col-3">
-      <div className="card" onClick={ () => props.action(name)}>
+      <div className="card museumCard" onClick={ () => props.action(name)}>
         <img src={image} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">{name}</h5>
-          <p className="card-text">
+          <h5 className="card-title museumTitle">{name}</h5>
+          <p className="card-text museumCity">
             {city}
           </p>
         </div>

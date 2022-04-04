@@ -24,13 +24,13 @@ function Banner() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/" onClick={() => changeSelectedCat("Museos")}>
                   Museos
                 </a>
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="" onClick={() => changeSelectedCat("Artistas")}>
                   Artistas
                 </a>
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="" onClick={() => changeSelectedCat("Movimientos")}>
                   Movimientos
                 </a>
               </div>

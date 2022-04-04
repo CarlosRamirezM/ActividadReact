@@ -15,6 +15,9 @@
 .obraCard {
   height: 260px;
   padding-bottom: 10px;
+  background: #c4c4c4;
+  border: 1px solid #000000;
+  box-sizing: border-box;
 }
 
 .titleSection {
@@ -27,4 +30,32 @@
   font-style: normal;
   font-weight: 800;
   font-size: 32px;
+}
+
+.museumCard {
+  background: #c4c4c4;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.museumTitle {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #000000;
+}
+
+.museumCity {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
 }

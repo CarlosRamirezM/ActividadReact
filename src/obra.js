@@ -12,7 +12,7 @@ function Obra(props) {
             <div className="card obraCard">
                 <img src="https://www.kindpng.com/picc/m/280-2800888_computer-icons-portrait-avatar-clip-art-portrait-icon.png" className="card-img-top obraImg" alt="..."/>
                 <div className="card-body">
-                    <h5 className="card-title">{name} ({year})</h5>                   
+                    <h5 className="card-title museumTitle">{name} ({year})</h5>                   
                 </div>
             </div>
             </div>
